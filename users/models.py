@@ -6,7 +6,6 @@ class Product (models.Model):
     name = models.CharField(max_length=100)
     price = models.FloatField()
     description = models.CharField(max_length=150)
-    # image = models.ImageField(upload_to='products/')
     type = models.TextField()
     details = models.TextField()
 
